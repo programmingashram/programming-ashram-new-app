@@ -1,0 +1,30 @@
+// ------------------------------------------------cumstom-color-variables ---------------------------------------------
+
+$color-purple:#501769;
+$color-blue:#382780;
+$color-pink:#BA51D9;
+$color-white:#FFFFFF;
+$color-black:#28233C;
+$color-gray:#666277;
+$color-light-pink:#E397B6;
+$color-brown:#744A58;
+$color-dark-brown:#352341;
+
+//custom box-shadow color 
+
+$box-shadow-color:#8D34C429;
+
+//custom background white
+$backgroud-white-color:#FCFAFF;
+
+//=========================================custom-linear-gradient-color=======================================
+
+// this primary linear gradient color is for the header button
+$primary-linear-gradient: transparent linear-gradient(256deg, $color-purple 0%, $color-blue 100%) 0% 0% no-repeat padding-box;
+
+// this secondary linear gradient color is for the hero background section
+$secondary-linear-gradient:transparent linear-gradient(241deg, $color-pink 0%, $color-blue 100%) 0% 0% no-repeat padding-box;
+
+// this linear gradient color is for the footer Contemporary section
+$brown-linear-gradient:transparent linear-gradient(244deg, $color-brown 0%, $color-dark-brown 100%) 0% 0% no-repeat padding-box;
+ 
