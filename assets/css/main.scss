@@ -9,26 +9,7 @@
 @import '../css/abstract/functions';
 
 
-header{
-button{
-    @include custom-button-primary();
-}
-}
 
-.but{
-    padding:rem(10);
-    background: navy;
-    button{
-        @include custom-button-secondary();
-        
-    }
-}
-h3{
-    @include custom-background-white();
-    @include custom-box-shadow();
-}
 
-article{
-    height:100vh;
-    background: $brown-linear-gradient;
-}
+// ===================================Expert-section-css==================================================
+

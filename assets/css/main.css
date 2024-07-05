@@ -8,10 +8,16 @@
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
+}
+
+img {
+  display: block;
 }
 
 body {
@@ -24,44 +30,4 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-}
-
-header button {
-  background: transparent linear-gradient(256deg, #501769 0%, #382780 100%) 0% 0% no-repeat padding-box;
-  border: none;
-  color: #FFFFFF;
-  padding: 0.5625rem 0.9375rem;
-  font-weight: 25rem;
-}
-header button:focus {
-  border: 0.3125rem solid black;
-}
-
-.but {
-  padding: 0.625rem;
-  background: navy;
-}
-.but button {
-  background: transparent linear-gradient(256deg, #501769 0%, #382780 100%) 0% 0% no-repeat padding-box;
-  border: none;
-  color: #FFFFFF;
-  padding: 0.5625rem 0.9375rem;
-  font-weight: 25rem;
-  background: transparent;
-  padding: 0.6875rem 1.4375rem;
-  border: 0.0625rem solid white;
-  border-radius: 0.125rem;
-}
-.but button:focus {
-  border: 0.3125rem solid black;
-}
-
-h3 {
-  background: #FCFAFF 0% 0% no-repeat padding-box;
-  box-shadow: 0px 30px 70px rgba(141, 52, 196, 0.1607843137);
-}
-
-article {
-  height: 100vh;
-  background: transparent linear-gradient(244deg, #744A58 0%, #352341 100%) 0% 0% no-repeat padding-box;
 }/*# sourceMappingURL=main.css.map */
