@@ -18,17 +18,10 @@ a {
   color: whitesmoke;
 }
 
-.poppins-regular-1 {
+.poppins-regular {
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 70px;
-  color: white;
-}
-
-.poppins-regular-4 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 25px;
+  font-weight: 400px;
+  font-style: normal;
   color: white;
 }
 
@@ -93,9 +86,20 @@ a {
   margin-left: 226px;
   z-index: 1;
 }
+.content h1 {
+  font-size: 70px;
+  color: #FFFFFF;
+}
+.content h4 {
+  font-size: 30px;
+  color: #FFFFFF;
+  font-weight: normal;
+}
 
 .search input {
   outline: none;
+  background: none;
+  border: none;
 }
 
 .search input[type=search] {
@@ -112,13 +116,13 @@ a {
     display: none; 
 } */
 input[type=search] {
-  background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
-  border: solid 1px #ccc;
-  padding: 9px 10px 9px 32px;
-  width: 55px;
-  border-radius: 10em;
-  border-radius: 10em;
-  border-radius: 10em;
+  background: url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 11px center;
+  border: solid 0px #ccc;
+  padding: 8px 10px 8px 32px;
+  width: 1px;
+  border-radius: 50em;
+  border-radius: 50em;
+  border-radius: 50em;
   transition: all 0.5s;
   transition: all 0.5s;
   transition: all 0.5s;
@@ -126,8 +130,8 @@ input[type=search] {
 
 input[type=search]:focus {
   width: 130px;
+  background: none;
   background-color: #fff;
-  border-color: #66CC75;
   box-shadow: 0 0 5px rgba(109, 207, 246, 0.5);
   box-shadow: 0 0 5px rgba(109, 207, 246, 0.5);
   box-shadow: 0 0 5px rgba(109, 207, 246, 0.5);
