@@ -8,8 +8,104 @@
 @import '../css/components/cards';
 @import '../css/abstract/functions';
 
+//=======================================header-nav-btn section=============================//
 
+.primary-bg {
+    @include primary-bg();
+}
+.logo-img {
+    img {
+    @include logo-img()
+    }
+}
+.emp-btn {
+.btn {
+    @include custom-button-primary();
+}
+}
+.book-btn {
+    .btn {
+    @include custom-button-secondary();
+    }
+}
+//<-----------------------------------------crousel-sleder section------------------------------->//
+
+.carousel-inner {
+    height: 700px;
+}
+.small-img {
+    img {
+        @include small-img();
+    }
+}
+.large-img {
+    img {
+        @include large-img();
+    }
+}
+.content {
+    @include content();
+    h1 {
+        font-size: 70px;
+        color: $color-white;
+    }
+    h4 {
+        font-size: 30px;
+        color: $color-white;
+        font-weight: normal;
+    }
+}
 
 
 // ===================================Expert-section-css==================================================
 
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:700');
+
+.search input {
+    outline: none;
+    background: none;
+    border: none;
+}
+.search input[type=search] {
+    appearance: textfield;
+    box-sizing: content-box;
+    font-family: inherit;
+    font-size: 100%;
+}
+/* .search input::search-decoration,
+.search input::search-cancel-button {
+    display: none; 
+} */
+
+
+input[type=search] {
+    background:url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 11px center;
+    border: solid 0px #ccc;
+    padding: 8px 10px 8px 32px;
+    width: 1px;
+    
+    border-radius: 50em;
+    border-radius: 50em;
+    border-radius: 50em;
+    
+    transition: all .5s;
+    transition: all .5s;
+    transition: all .5s;
+}
+input[type=search]:focus {
+    width: 130px;
+    background: none;
+    background-color: #fff;
+    
+    box-shadow: 0 0 5px rgba(109,207,246,.5);
+    box-shadow: 0 0 5px rgba(109,207,246,.5);
+    box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+
+input:placeholder {
+    color: #999;
+}
+input::input-placeholder {
+    color: #999;
+}

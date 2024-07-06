@@ -1,27 +1,54 @@
 @import '../abstract/functions';
+@import './variables';
 
+//===========================header-section=====================================================//
 
+@mixin primary-bg() {
+    background: $secondary-linear-gradient;
+}
+@mixin logo-img() {
+    width: 140px;
+}
+//===================================carousel-slider-section===============================//
 
+@mixin small-img() {
+    width: 245px;
+}
+@mixin large-img() {
+    width: 625px;
+    position: absolute;
+    top: 63px;
+    left: 743px;
+    height: 600px;
+}
+@mixin content(){
+    position: absolute;
+    margin-left: 226px;
+    z-index: 1;
+}
 
 //======================mixin-for-button=========================================================
 
 
 // this mixin for the header button(Employee Portel button)
-@mixin custom-button-primary{
+@mixin custom-button-primary(){
     background: $primary-linear-gradient;
     border:none;
     color:$color-white;
     padding:rem(9) rem(15);
-    font-weight:rem(400);
 
     &:focus{
         border:rem(5) solid black;
+    }
+    &:hover {
+        background-color: white;
+        color: #501769;
     }
 }
 
 
 // this mixin for the hero section botton (Book your spot button)
-@mixin custom-button-secondary{
+@mixin custom-button-secondary (){
     @include custom-button-primary();
     background: transparent;
     padding:rem(11) rem(23);
