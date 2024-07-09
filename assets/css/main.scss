@@ -109,3 +109,86 @@ input:placeholder {
 input::input-placeholder {
     color: #999;
 }
+
+article{
+    .expert-main{
+        .container{
+            .row{
+                .col-lg-12{
+                    .content-heading{
+                       h1{
+                        font-size:rem(60);
+                        font-weight:rem(400);
+                        padding-bottom:rem(15);
+                       }
+                       p{
+                        font-size:rem(16);
+                        font-weight:400;
+                        color:$color-gray;
+                       }
+                    }
+                }
+            }
+
+            .row{
+               .col-lg-4{
+                .card{
+                    border:none;
+                    width:rem(343);
+                   // height:rem(544);
+                    margin-top:rem(60);
+                    margin-bottom: rem(20);
+                    @include custom-background-white();
+                    .card-heading{
+                        padding:rem(60) rem(73);
+                        @include custom-box-shadow();
+                        height:rem(228);
+                       
+
+                        span{
+                            img{
+                                position:absolute;
+                                top:rem(45);
+                                left:rem(65);
+                            }
+                        }
+                        h2{
+                            font-size:rem(20);
+                            font-weight:400;
+                            line-height: rem(30);
+                        }
+                    }
+
+                    .card-body{
+                        h2{
+                            font-size:rem(20);
+                            padding:rem(16) rem(0) rem(2) rem(0);
+                            font-weight: 500;
+                            margin:0;
+                        }
+                        p{
+                            font-size:rem(14);
+                            color:$color-gray;
+                            margin:0;
+                            padding-bottom:rem(6);
+                        }
+                        .card-image{
+                            img{
+                                padding:rem(56) rem(0) rem(16) rem(0);
+                                
+                            }
+                        }
+                        .card-play-button{
+                            img{
+                                position: absolute;
+                                top: -19px;
+                                left: 44%;
+                            }
+                        }
+                    }
+                }
+               } 
+            }
+        }
+    }
+}
