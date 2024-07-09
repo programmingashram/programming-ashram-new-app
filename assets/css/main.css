@@ -15,14 +15,18 @@ ul {
 
 a {
   text-decoration: none;
-  color: whitesmoke;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .poppins-regular {
   font-family: "Poppins", sans-serif;
   font-weight: 400px;
   font-style: normal;
-  color: white;
 }
 
 .primary-bg {

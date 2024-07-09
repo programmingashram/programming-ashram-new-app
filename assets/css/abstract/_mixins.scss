@@ -48,7 +48,7 @@
 
 
 // this mixin for the hero section botton (Book your spot button)
-@mixin custom-button-secondary (){
+@mixin custom-button-secondary(){
     @include custom-button-primary();
     background: transparent;
     padding:rem(11) rem(23);
@@ -61,12 +61,12 @@
 
 //this mixin is for card bax-shadow
 
-@mixin custom-box-shadow{
+@mixin custom-box-shadow(){
     box-shadow: 0px 30px 70px $box-shadow-color;
 }
 
 // this mixin is for custom background color for card
 
-@mixin custom-background-white{
+@mixin custom-background-white(){
     background: $backgroud-white-color 0% 0% no-repeat padding-box;
 }
