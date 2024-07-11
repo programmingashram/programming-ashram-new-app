@@ -203,30 +203,29 @@ article .expert-main .container .row .col-lg-4 .card .card-body .card-play-butto
 }
 
 article .article-main .container-fluid .row .col-lg-6 .client-img {
-  padding: 186rem 150rem 0rem 0rem;
+  padding: 11.625rem 9.375rem 0rem 0rem;
   position: relative;
 }
 article .article-main .container-fluid .row .col-lg-6 .client-img .image img {
   position: absolute;
-  top: 109rem;
-  left: 362rem;
-  width: 40%;
+  top: 6.8125rem;
+  left: 22.625rem;
   z-index: -1;
 }
 article .article-main .container-fluid .row .col-lg-6 .client-img .logo {
-  left: 32rem;
+  left: 2rem;
   background-color: #FF226F;
   display: inline-block;
-  width: 106rem;
-  height: 106rem;
-  border-radius: 62rem;
-  top: 31rem;
+  width: 6.625rem;
+  height: 6.625rem;
+  border-radius: 3.875rem;
+  top: 1.9375rem;
   position: absolute;
   box-shadow: 0px 20px 40px rgba(255, 29, 116, 0.5019607843);
 }
 article .article-main .container-fluid .row .col-lg-6 .client-img .logo img {
-  width: 40rem;
-  height: 63rem;
+  width: 2.5rem;
+  height: 3.9375rem;
   position: absolute;
   top: 50%;
   left: 50%;
