@@ -202,30 +202,33 @@ article{
             .row{
                 .col-lg-6{
                     .client-img{
-                        padding: 186rem 150rem 0rem 0rem; 
+                        padding: rem(186) rem(150) rem(0) rem(0); 
                         position:relative;
+                        // img{
+                        //     width:100%;
+                        // }
                         .image{
                             img{
                                 position: absolute;
-                                top: 109rem;
-                                left: 362rem;
-                                width: 40%;
+                                top: rem(109);
+                                left: rem(362);
+                               // width: 40%;
                                 z-index: -1;
                             }
                         }
                         .logo{
-                            left: 32rem;
+                            left:rem(32);
                             background-color:$color-red;
                             display: inline-block;
-                            width: 106rem;
-                            height: 106rem;
-                            border-radius: 62rem;
-                            top: 31rem;
+                            width: rem(106);
+                            height: rem(106);
+                            border-radius:rem(62);
+                            top: rem(31);
                             position: absolute;
                             @include custom-red-box-shadow();
                             img{
-                                width: 40rem;
-                                height: 63rem;
+                                width: rem(40);
+                                height: rem(63);
                                 position: absolute;
                                 top: 50%;
                                 left: 50%;
