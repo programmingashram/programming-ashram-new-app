@@ -39,11 +39,8 @@ a {
   color: #FFFFFF;
   padding: 0.5625rem 0.9375rem;
 }
-.emp-btn .btn:focus {
-  border: 0.3125rem solid black;
-}
 .emp-btn .btn:hover {
-  background-color: white;
+  background: white;
   color: #501769;
 }
 
@@ -57,11 +54,8 @@ a {
   border: 0.0625rem solid white;
   border-radius: 0.125rem;
 }
-.book-btn .btn:focus {
-  border: 0.3125rem solid black;
-}
 .book-btn .btn:hover {
-  background-color: white;
+  background: white;
   color: #501769;
 }
 

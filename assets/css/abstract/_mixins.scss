@@ -36,12 +36,8 @@
     border:none;
     color:$color-white;
     padding:rem(9) rem(15);
-
-    &:focus{
-        border:rem(5) solid black;
-    }
     &:hover {
-        background-color: white;
+        background: white;
         color: #501769;
     }
 }
