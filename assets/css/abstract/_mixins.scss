@@ -70,3 +70,10 @@
 @mixin custom-background-white(){
     background: $backgroud-white-color 0% 0% no-repeat padding-box;
 }
+
+
+//==========================================mixin-for-the-client-article==================================
+
+@mixin custom-red-box-shadow(){
+    box-shadow: 0px 20px 40px #FF1D7480;
+}
