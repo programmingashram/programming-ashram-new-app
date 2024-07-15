@@ -200,25 +200,28 @@ input::input-placeholder {
             .row{
                 .col-lg-6{
                     .client-img{
-                        padding: rem(186) rem(150) rem(0)rem(0);
+                        padding: rem(186) rem(150) rem(0) rem(0); 
                         position:relative;
+                        // img{
+                        //     width:100%;
+                        // }
                         .image{
                             img{
                                 position: absolute;
                                 top: rem(109);
                                 left: rem(362);
-                                width: 40%;
+                               // width: 40%;
                                 z-index: -1;
                             }
                         }
                         .logo{
-                            right: rem(103);
+                            left:rem(32);
                             background-color:$color-red;
                             display: inline-block;
                             width: rem(106);
                             height: rem(106);
-                            border-radius: rem(62);
-                            top: rem(500);
+                            border-radius:rem(62);
+                            top: rem(31);
                             position: absolute;
                             @include custom-red-box-shadow();
                             img{
